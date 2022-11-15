@@ -1,45 +1,42 @@
 body {
     background-color:rgb(241, 122, 142);
+    text-align: center;
+    margin-top: 50px;
 
 }
 
-.text-container div {
-    margin: 10px;
-    width: 300px;
+body::after {
+    content:"1400px - ээс их болон тэнцүү үед = xxl (extra extra large) => 1400px" ;
 }
-.text-container {
-    display: flex;
-    flex-direction: row;
-}
+
 
 @media only screen and (max-width:1400px) {
     body {
         background-color: red;
     }
-
-    #text-1 #text-2 #text-3 #text-4 #text-5  {
-        display: none;
+    body::after {
+        content:"1200px - ээс их болон тэнцүү үед = xl (extra large) => 1200px" ;
     }
 }
 
 @media only screen and (max-width:1200px) {
     body {
-        background-color:pink;
+        background-color:rgb(90, 72, 210);
+    }
+    body::after {
+        content:"992px - ээс их болон тэнцүү үед = lg (large) => 992px" ;
     }
    
-    #text-1 #text-2 #text-3 #text-4 #text-6 {
-        display: none;
-    }
 }
 
 @media only screen and (max-width:992px) {
     body {
         background-color:rgb(49, 199, 225);
     }
-   
-    #text-1 #text-2 #text-3 #text-5 #text-6 {
-        display: none;
+    body::after {
+        content:"992px - ээс их болон тэнцүү үед = lg (large) => 992px" ;
     }
+    
 }
 
 @media only screen and (max-width:768px) {
@@ -47,20 +44,34 @@ body {
         background-color:rgb(59, 196, 109);
     }
    
-    #text-1 #text-2 #text-4 #text-5 #text-6 {
-        display: none;
+    body::after {
+        content:"768px - ээс их болон тэнцүү үед = md (medium) => 768px" ;
     }
+    
 }
 
 @media only screen and (max-width:576px) {
     body {
-        background-color:rgb(49, 199, 225);
+        background-color:rgb(224, 239, 25);
     }
    
-    #text-1 #text-2 #text-4 #text-5 #text-6 {
-        display: none;
+    body::after {
+        content:"576px - ээс их болон тэнцүү үед = sm  (small) => 576px" ;
     }
+    
 }
+
+@media only screen and (max-width:100px) {
+    body {
+        background-color:rgb(19, 92, 12);
+    }
+   
+    body::after {
+        content:"576px - ээс бага үед = xs ( extra small ) < 576px" ;
+    }
+    
+}
+
 
 
 
