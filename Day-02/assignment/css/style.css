@@ -1,0 +1,69 @@
+body {
+    background-color:rgb(241, 122, 142);
+
+}
+
+.text-container div {
+    margin: 10px;
+    width: 300px;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:1400px) {
+    body {
+        background-color: red;
+    }
+
+    #text-1 #text-2 #text-3 #text-4 #text-5  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1200px) {
+    body {
+        background-color:pink;
+    }
+   
+    #text-1 #text-2 #text-3 #text-4 #text-6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:992px) {
+    body {
+        background-color:rgb(49, 199, 225);
+    }
+   
+    #text-1 #text-2 #text-3 #text-5 #text-6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-color:rgb(59, 196, 109);
+    }
+   
+    #text-1 #text-2 #text-4 #text-5 #text-6 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    body {
+        background-color:rgb(49, 199, 225);
+    }
+   
+    #text-1 #text-2 #text-4 #text-5 #text-6 {
+        display: none;
+    }
+}
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+body {
+    background-color:blue;
+
+}
+
+img {
+    width: 1000px;
+}
+
+.text-container div {
+    margin: 10px;
+    width: 300px;
+}
+.text-container {
+    display: flex;
+    flex-direction: row;
+}
+
+@media only screen and (max-width:768px) {
+    body {
+        background-color: red;
+    
+    }
+    img {
+        width: 600px;
+    }
+
+    #text-1 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    body {
+        background-color:aliceblue;
+    }
+    img {
+        width: 400px;
+    }
+
+    .text-container {
+        flex-direction: column;
+    }
+    #text-2 {
+        display: none;
+    }
+}
+
+
+
+
