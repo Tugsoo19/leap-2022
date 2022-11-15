@@ -1,0 +1,16 @@
+body {
+    background-color: antiquewhite;
+}
+
+input {
+    background-image: url(https://cdn-icons-png.flaticon.com/512/3917/3917754.png);
+    width: 20px;
+    border-radius: 20px;
+}
+
+input:hover {
+
+   transition: 0.2s 0.5s width; 
+   transition-timing-function: linear;
+   width: 100px;
+}
