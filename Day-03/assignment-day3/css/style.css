@@ -1,11 +1,4 @@
 
-/* 
-.topimage {
-   background-color: none;
-    
-} */
-
-
 .topimage img {
     /* float: left; */
     border-radius: 30px;
@@ -31,9 +24,12 @@
 
 .right-info {
     background-color: rgb(222, 216, 216);
-    width: 80%;
+    width: 50%;
     border-radius: 20px;
     padding: 20px;
+    height: 500px;
+    size: 20rem;
+
 }
 
 
@@ -45,6 +41,7 @@
     .bottom-content {
         flex-wrap: wrap;
     }
+    
 }
 @media screen and (min-width: 768px) and (max-width:1023px) {
     .topimage img{
