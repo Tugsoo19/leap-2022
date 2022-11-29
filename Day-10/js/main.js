@@ -13,10 +13,10 @@ console.log(hello);
 hello = 'Here is now apple'
 console.log(hello);
 
-let myNumber;
-console.log(myNumber);
-myNumber = 5;
-console.log(myNumber);
+// // let myNumber;
+// console.log(myNumber);
+// myNumber = 5;
+// console.log(myNumber);//
 
 let x = 8, y = 6, z = 18;
 console.log(x + y + 13);
@@ -60,3 +60,17 @@ alert (text + space + sum);
 // alert (message);
 
 window.document.write('<h1>Hello from Javascript</h1>')
+
+
+
+let myNumber = 5;
+
+let undify;
+let nullVariable = null;
+//typeof
+
+
+console.log(typeof 1);
+console.log(typeof "Hello");
+console.log(typeof undify);
+console.log(typeof nullVariable)
