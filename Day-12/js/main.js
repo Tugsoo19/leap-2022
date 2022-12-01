@@ -45,31 +45,7 @@
 // console.log(str.toUpperCase());
 
 
-//-------- Validate Registration number ------------//
 
-const registerNumber = prompt("Register Number"); 
-// console.log(registerNumber.length);
-// if (registerNumber.length != 10) {
-//     alert ("The Register number length is not correct.")
-// } else {
-//     alert ("the Register number length is correct.")
-// }
-
-
-console.log(registerNumber.length);
-console.log(registerNumber.substr(0,2));
-console.log(registerNumber.substr(2,9));
-
-const registerChar = registerNumber.substr(0,2);
-const registerNum = registerNumber.substr(2,9);
-
-
-if (!Number.isInteger(Number(registerChar)) && Number.isInteger(Number(registerNum)) && registerNumber.length == 10) {
-    console.log('Your register characters are correct');
-    
-} else {
-    console.log('Your register characters are wrong');
-}
 
 console.log(Number('abc'));
 console.log(Number.isInteger(Number('abc')))
