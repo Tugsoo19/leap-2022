@@ -1,13 +1,3 @@
-// -------------- tegsh toog oloh --------------//
-
-// let count = 0; 
-
-// console.log("loop start");
-// while (count<= 100 ) {
-//     console.log(count);
-//     count = count + 2;  
-// }
-// console.log("loop ended")
 
 // --------------- Palindromic-number --------------//
 
@@ -24,8 +14,3 @@ console.log(typeof(n.length));
  }
  else {console.log("tegsh orontoi too");
 }
-
-
-
-
-
