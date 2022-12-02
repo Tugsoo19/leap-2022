@@ -23,9 +23,10 @@ let sum = 0;
 let count = 1;
 console.log("loop start");
 while (count <= max1) {
-    // console.log(count);
+    console.log(count,sum);
     
     sum = sum + count;
+    // console.log(sum);
     count = count + 1;
     
 }
