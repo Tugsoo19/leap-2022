@@ -14,3 +14,22 @@ while (count <= max) {
 }
 console.log(sum);
 console.log("loop ended")
+
+
+//----------number digits
+
+let n = Number(prompt("give me your number"));
+let countA = 0; 
+console.log(n);
+
+
+if (Number.isInteger(n)) {
+    while (n !== 0) {
+        countA = countA + 1; 
+        n = Math.floor(n/10);
+    }
+    console.log(countA)
+} else {
+    alert ("Please insert only number");
+}
+
