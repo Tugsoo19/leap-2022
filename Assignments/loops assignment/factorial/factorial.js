@@ -32,3 +32,4 @@ if (win == true) {
 } else if (win == false) {
     alert("Game over");
 }
+
