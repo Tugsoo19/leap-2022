@@ -62,3 +62,8 @@ for (let i = 0; i < num.length; i++) {
 console.log(num);
 
 console.log(Math.sqrt(4));
+
+function multiplyFourNumbers (x , y , z, d) {
+    const m = x * y * z * d;
+    return m;
+}
