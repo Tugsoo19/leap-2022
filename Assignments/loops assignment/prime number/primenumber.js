@@ -23,3 +23,18 @@ if (1<= n && n<=100) {
 
 
 
+// prime number version2
+
+let input = Number(prompt("gie me your prime number"));
+let temp = 0;
+
+for (let i = 2; i < Math.round(input/2); i++) {
+    if (input % i == 0) {
+        temp = temp + 1; 
+    }
+}
+if (temp == 0) { 
+    console.log("It's a prime number")
+} else {
+    console.log("It's a not prime number")
+}

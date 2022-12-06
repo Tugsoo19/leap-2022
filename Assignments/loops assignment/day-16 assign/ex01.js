@@ -42,3 +42,22 @@ for (let index = 0; index < itCompanies.length; index++) {
     console.log(itCompanies[index].length + "length")
     
 }
+
+for (let index =0;index < itCompanies.length; index++ ){
+    
+}
+
+
+//1. ugugdsun 2 toonii ihiig oloh function
+
+let num1 = prompt("give me number A"); 
+let num2 = prompt("give me number B"); 
+
+function findMax(x,y) {
+    if( x < y) {
+        console.log(y + "is bigger than" + x);
+    } else {
+        console.log(x + "is bigger than" + y);;
+    }
+}
+findMax(num1, num2);
