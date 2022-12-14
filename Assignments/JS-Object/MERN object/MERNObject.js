@@ -112,45 +112,39 @@ loggedPerson(users);
 
 function mern(array) {
   for (let i = 0; i < array.length; i++) {
-    for (let j = 0; j < array[i].skills.length; j++) {
-      let skill = array[i].skills;
-      if (
-        skill[j] == "MongoDB" ||
-        skill[j] == "Express" ||
-        skill[j] == "React" ||
-        skill[j] == "Node"
-      ) {
-        console.log(array[i].name + " " + skill[j]);
-      }
+    if (
+      array[i].skills.includes("MongoDB") &&
+      array[i].skills.includes("Express") &&
+      array[i].skills.includes("React") &&
+      array[i].skills.includes("Node")
+    ) {
+      console.log("MERN devop:" + array[i].name);
     }
   }
 }
-
 mern(users);
 
 // Хамгийн их настай 3 хүмүүсийн мэдээллийг хэвлэх
 
-
 function ages(array) {
-  for (let i = 0; i < array.length; i++) {
-    let arr = array[i].age;
+  for (let i = 0; i < array[i].age.length; i++) {
+    let arr = array.age;
     // console.log(arr);
 
     third = first = second = 0;
 
-    if (myObject > first) {
+    if (arr > first) {
       third = second;
       second = first;
-      first = myObject;
-    } else if (myObject > second) {
+      first = arr;
+    } else if (arr > second) {
       third = second;
-      second = myObject;
-    } else if (myObject > third) {
-      third = myObject;
+      second = arr;
+    } else if (arr > third) {
+      third = arr;
     }
+    console.log("Oldest 3 ages are " + first + " " + second + " " + third);
   }
-  console.log("Oldest 3 ages are " + first + " " + second + " " + third);
 }
 
 ages(users);
-

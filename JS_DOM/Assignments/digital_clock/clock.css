@@ -1,0 +1,12 @@
+#clock {
+    background-color: black;
+    color: white;
+    font-size: 175px;
+    width:fit-content;
+    margin: 200px auto;
+    padding: 30px;
+    text-align: center;
+    /* border: 10px solid palevioletred; */
+    border-radius: 30px;
+    font-family:'Stardos Stencil', cursive;
+  }
