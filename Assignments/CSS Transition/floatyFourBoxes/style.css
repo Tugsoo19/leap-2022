@@ -1,0 +1,81 @@
+.outline {
+    width: 800px;
+    height: 800px;
+    border: 2px solid black;
+    position: fixed;
+    
+}
+
+.box1 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gainsboro;
+    position: absolute;
+    top: 240px;
+    left: 240px;
+    box-shadow: 5px 5px 5px gray;
+    
+    
+}
+
+.box2 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gainsboro;
+    position: absolute;
+    top: 240px;
+    right: 240px;
+    box-shadow: 5px 5px 5px gray;
+}
+.box3 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gainsboro;
+    position: absolute;
+    bottom: 240px;
+    left: 240px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.box4 {
+    width: 150px;
+    height: 150px;
+    border: 2px solid gainsboro;
+    position: absolute;
+    bottom: 240px;
+    right: 240px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.red a {
+    background-color: rgb(239, 85, 85);
+    /* border: 1px solid black; */
+    transition: 2s;
+}
+
+.outline:hover .red .box1{
+    top: 0;
+    left: 0;
+    transition: 3s;
+    animation-direction: alternate;
+}
+
+.outline:hover .red .box2{
+    top: 0;
+    right: 0;
+    transition: 3s;
+    animation-direction: alternate;
+}
+.outline:hover .red .box3{
+    bottom: 0;
+    left: 0;
+    transition: 3s;
+    animation-direction: alternate;
+}
+
+.outline:hover .red .box4{
+    bottom: 0;
+    right: 0;
+    transition: 3s;
+    animation-direction: alternate;
+}
