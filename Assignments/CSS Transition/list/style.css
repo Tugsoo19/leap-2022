@@ -1,0 +1,37 @@
+.box {
+  border-top: 4px solid burlywood;
+  background-color: aqua;
+  padding: 10px;
+  width: 500px;
+  text-align: center;
+  font-size: 20px;
+}
+
+p{
+  
+  cursor: pointer;
+}
+
+.box:hover {
+    background-color: orange;
+    transition: 1s;
+
+  }
+
+.box:hover p {
+  transition: 2s;
+  border-style: none;
+  font-size: 30px;
+  
+}
+
+.box:active{
+  
+  transition: 1s ease-in-out;
+  background-color: green;
+  
+}
+
+.box:active p {
+    font-size: 50px;
+}

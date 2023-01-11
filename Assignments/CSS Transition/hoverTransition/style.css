@@ -1,0 +1,26 @@
+.blue {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: blue;
+    transition: 1s;
+    cursor: pointer;
+   
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    background-color: green;
+    transition: 1s;
+}
+
+.green:hover {
+    width: 500px;
+}
+
+.blue:focus {
+    width:  500px;
+   
+}
