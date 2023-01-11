@@ -1,0 +1,43 @@
+.menus {
+  background-color: black;
+  border: 2px solid black;
+  position: relative;
+  transition: 1s;
+  opacity: 0.3;
+  
+}
+
+button{
+    position: absolute;
+    right: 0;
+
+}
+
+.menu {
+  background-color: green;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 20px;
+  
+  
+}
+
+.menus {
+  position: absolute;
+  left: -80px;
+}
+
+.menus:hover {
+  left: 0;
+  width: 300px;
+  transition: 2s;
+  opacity: 1
+}
+
+.menu:hover {
+  background-color: white;
+  transition: 1s;
+  font-size: 20px;
+  height: 15px;
+}
